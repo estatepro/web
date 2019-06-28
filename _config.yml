@@ -28,6 +28,7 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-maps
   - jekyll-feed
 
 # Exclude from processing.
@@ -41,3 +42,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+maps:
+  google:
+    api_key: AIzaSyDJhG6v1f1AX01x7qicdk6ao9AU8iQvYbs
